@@ -2,8 +2,8 @@
 NoSyu Python Library
 
 ## Functions
-- get_num_lines
-- str2bool
+- get_num_lines [link](https://blog.nelsonliu.me/2016/07/30/progress-bars-for-python-file-reading-with-tqdm/)
+- str2bool [link](https://stackoverflow.com/a/43357954)
 - alert_end_program
 
 ## Requirements
