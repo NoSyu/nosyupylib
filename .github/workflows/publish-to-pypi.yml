@@ -1,7 +1,9 @@
-
 name: Publish Python distributions to PyPI
 
-on: push
+on:
+  push:
+    tags:
+      - v1.*
 
 jobs:
   build-n-publish:
@@ -10,7 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
-        if: startsWith(github.ref, 'refs/tags')
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
         with:
@@ -33,6 +34,7 @@ jobs:
             .
 
       - name: Publish distribution to PyPI
+        #if: startsWith(github.ref, 'refs/tags')
         uses: pypa/gh-action-pypi-publish@master
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}
