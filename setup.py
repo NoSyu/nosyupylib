@@ -10,7 +10,7 @@ setuptools.setup(
     name='nosyupylib',
     license="MIT",
     description='NoSyu Python Library',
-    version='v0.0.1',
+    version='v1.0.0',
     long_description=README,
     url='https://github.com/NoSyu/nosyupylib',
     packages=setuptools.find_packages(),
