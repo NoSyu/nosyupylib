@@ -12,7 +12,7 @@ setuptools.setup(
     description='NoSyu Python Library',
     version='v0.0.1',
     long_description=README,
-    url='https://github.com/NoSyu/nosyupynlib',
+    url='https://github.com/NoSyu/nosyupylib',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
     install_requires=['slack', 'pymsteams'],
