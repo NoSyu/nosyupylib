@@ -9,6 +9,7 @@ NoSyu Python Library
 ## Requirements
 - Python >=3.5
 - ```settings.json``` file at .nosyupylib (Please add this file manually)
+- To get a webhook URL of MS Teams: https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook
 
 ## Install
 ```pip install nosyupylib```
