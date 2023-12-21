@@ -69,6 +69,10 @@ def alert_end_program(body_msg, channel='teams'):
         raise KeyError
 
 
+def load_setting_file():
+    return _load_setting_file():
+
+
 def _test():
     body_msg = """
 Hello! I am NoSyu.
